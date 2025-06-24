@@ -365,9 +365,9 @@
         }
 
         /* Fondos difuminados para cada slide */
-        .carousel-slide:nth-child(1)::before { background-image: url('img/img_bg_1.jpg'); }
-        .carousel-slide:nth-child(2)::before { background-image: url('img/img_bg_2.jpg'); }
-        .carousel-slide:nth-child(3)::before { background-image: url('img/img_bg_3.jpg'); } /* Asumiendo que img_3.jpeg existe ahora */
+        .carousel-slide:nth-child(1)::before { background-image: url('img_bg_1.jpg'); }
+        .carousel-slide:nth-child(2)::before { background-image: url('img_bg_2.jpg'); }
+        .carousel-slide:nth-child(3)::before { background-image: url('img_bg_3.jpg'); }
 
         .carousel-slide.current {
             opacity: 1;
@@ -555,7 +555,7 @@
 
         /* Parallax Section */
         .section-parallax {
-            background-image: url('img/bg_index.jpg');
+            background-image: url('bg_index.jpg');
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
@@ -663,7 +663,7 @@
         </video>
         <div class="hero-content" id="heroContent">
             <div class="hero-logo-container">
-                <img src="img/logo.png" alt="Logo Boost & Launch" class="hero-logo" id="mainLogo">
+                <img src="logo.png" alt="Logo Boost & Launch" class="hero-logo" id="mainLogo">
             </div>
             
             <h1 class="hero-slogan" id="heroSlogan"></h1> <p class="hero-subtext">Diseñamos experiencias que venden, crean comunidad y posicionan. Web + Redes Sociales + IA = una marca que vive en la mente y el corazón del cliente.</p>
@@ -684,7 +684,7 @@
     <div class="carousel-hero" id="carousel-hero">
         <div class="carousel-slide current">
             <div class="slide-content">
-                <img src="img/img_1.png" alt="Sitio web corporativo" class="slide-image">
+                <img src="img_1.png" alt="Sitio web corporativo" class="slide-image">
                 <div class="slide-text">
                     <h2>Una plataforma web sólida, funcional y lista para crecer contigo</h2>
                     <p>Creamos plataformas digitales sólidas. Desde la usabilidad hasta el rendimiento, desarrollamos soluciones a medida para empresas que quieren crecer, innovar y destacar en su sector.</p>
@@ -695,7 +695,7 @@
         
         <div class="carousel-slide">
             <div class="slide-content">
-                <img src="img/img_2.png" alt="Tienda online de moda" class="slide-image">
+                <img src="img_2.png" alt="Tienda online de moda" class="slide-image">
                 <div class="slide-text">
                     <h2>Vende más, vende mejor. Tu tienda online empieza aquí</h2>
                     <p>Creamos tiendas online con propósito: pensadas para atraer, retener y convertir clientes. Cada detalle está diseñado para impulsar tus ventas y tu marca.</p>
@@ -706,7 +706,7 @@
         
         <div class="carousel-slide">
             <div class="slide-content">
-                <img src="img/img_3.png" alt="Campaña de redes sociales" class="slide-image">
+                <img src="img_3.png" alt="Campaña de redes sociales" class="slide-image">
                 <div class="slide-text">
                     <h2>Tu marca merece algo más que likes. Merece resultados.</h2>
                     <p>Estrategia y gestión profesional de redes con impacto real. Metricas y estadisticas que te enseñarán que tu inversión vale cada centavo.</p>
@@ -920,7 +920,7 @@
 
         // Preload del logo para evitar parpadeo
         const logoImg = new Image();
-        logoImg.src = 'img/logo.png';
+        logoImg.src = 'logo.png';
 
         // Efecto de iluminación en botones
         document.querySelectorAll('.btn-nav, .btn-primary, .project-link').forEach(button => {
